@@ -16,9 +16,10 @@ const Child = {
   mounted() {
     console.log('Child has mounted');
   },
-  render() {
-    return '<p>I am a child</p>';
-  },
+  template: '<p>I am a child</p>',
+  // render() {
+  //   return '<p>I am a child</p>';
+  // },
 };
 
 describe('Parent', () => {
